@@ -1,143 +1,56 @@
-#container {  
-  text-align: center;
-  display: flex;
-  flex-direction: column; /* Para alinear los elementos verticalmente */
-  align-items: center;    /* Para centrar verticalmente */
-}
-
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
-}
-
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-
-  margin: 0;
-}
-
-#container a {
-  text-decoration: none;
-
-}
-
-.campo-entrada {
-  display: block;
-
-  margin: 0 auto;
-  max-width: 200px; 
-}
-
-.imagen-imc {
-  width: 500px;
-  height: 500px; 
-
-}
-
 // Estilos para pantallas pequeñas
 @media (max-width: 767px) {
-  h3{
-    font-family: 'Verdana';
-    background-color: blue; 
+  .cartas__color{
+    background-color: violet; 
+  }
+
+  ion-content{
+    --ion-background-color:rgb(3, 75, 30);
   }
   
-  #container{
-    background-color: blue;
-  }
 
-  #container strong {
-    font-size: 18px;
-  }
-
-  #container p {
-    font-size: 14px;
-    color: wheat;
-  }
-
-  .campo-entrada {
-    max-width: 150px;
-  }
-
-  .imagen-imc {
-    width: 300px;
-    height: 300px;
-  }
 }
 
 // Estilos para pantallas medianas
 @media (min-width: 768px) and (max-width: 991px) {
-  h3{
-    font-family: 'Pacifico';
-    background-color: purple;
-  }
-  #container{
-    background-color: purple;
-  }
- 
-  #container strong {
-    font-size: 24px;
-    font-family: 'Pacifico';
+  .cartas__color{
+    background-color: orange; 
   }
 
-  #container p {
-    font-size: 18px;
-    color: orange;
+  ion-content{
+    --ion-background-color:black;
   }
-
-  .campo-entrada {
-    max-width: 250px;
-  }
-
-  .imagen-imc {
-    width: 400px;
-    height: 400px;
-  }
+  
 }
 
 // Estilos para pantallas grandes
 @media (min-width: 992px) {
-  h3{
-    font-family: 'Comic Sans MS';
-    background-color: red;
-
-  }
-  #container{
-    background-color: red;
-    font-family: 'Comic Sans MS';
-  }
-  #container strong {
-    font-size: 28px;
-
+  .cartas__color{
+    background-color: blue; 
   }
 
-  #container p {
-    font-size: 22px;
-    color: blue;  
+  ion-content{
+    --ion-background-color:#78CC66;
   }
+  
 
-  .campo-entrada {
-    max-width: 300px;
-  }
+}
 
-  .imagen-imc {
-    width: 500px;
-    height: 500px;
-  }
+.cartas__color{
+  color: whitesmoke; 
 }
 
 @media (orientation: landscape) {
+  .cartas__color{
+    background-color: red; 
+  }
+}
 
+@media (orientation: portrait) {
+  .cartas__color{
+    background-color: pink; 
+  }
 }
 
 
-.cartas__color{
-  background-color: blue; 
-  color: whitesmoke;
-}
 
-
-ion-content{
-  --ion-background-color:#78CC66;
-}
