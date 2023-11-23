@@ -1,26 +1,23 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title> Lista de Usuarios </ion-title>
+    <ion-title>Lista de Usuarios</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true" class="contenido__fondo">
-  <ion-input [(ngModel)]="filtro" placeholder="Introduce un filtro">
-
-  </ion-input>
+  <ion-input [(ngModel)]="filtro" placeholder="Introduce un filtro"></ion-input>
+  
   <ion-grid>
     <ion-row>
       <ng-container *ngFor="let user of users | async">
-        <ion-col *ngIf="user.name.toLowerCase().startsWith(filtro.toLowerCase()) || filtro ==''" size-xl="2" size-l="3" size-md="4" size-sm="6" size-xs="12">
+        <ion-col *ngIf="user.toLowerCase().startsWith(filtro.toLowerCase()) || filtro ==''" size-xl="2" size-l="3" size-md="4" size-sm="6" size-xs="12">
           <ion-card class="cartas__color">
-            <ion-card-content>  
-              <p>{{user.name}}</p>
-              <p>{{user.type}}</p>
-            </ion-card-content>
+            <ion-card-content>
+              <p>{{ user }}</p>
+            </ion-card-content>            
           </ion-card>
         </ion-col>
       </ng-container>
-
     </ion-row>
   </ion-grid>
   <div class="divBotones">
