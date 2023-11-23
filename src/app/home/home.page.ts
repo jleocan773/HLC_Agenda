@@ -15,9 +15,9 @@ export class HomePage {
   // constructor(private httpClient:HttpClient) {
   //   this.users = this.httpClient.get('https://raw.githubusercontent.com/jleocan773/HLC_Agenda/main/json/personas.json').pipe(map((res: any) => res['results']));
   // }  
-  
+
   constructor(private httpClient:HttpClient) {
-    this.users = this.httpClient.get('https://raw.githubusercontent.com/jleocan773/HLC_Agenda/main/json/personas.json').pipe(map((res: any) => res['results']));
+    this.users = this.httpClient.get('https://raw.githubusercontent.com/jleocan773/HLC_Agenda/main/json/pokemon.json').pipe(map((res: any) => res['results']));
   }
 
 }
