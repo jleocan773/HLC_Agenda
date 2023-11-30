@@ -7,7 +7,7 @@
       "chinese": "妙蛙种子",
       "french": "Bulbizarre"
     },
-    "type": ["Grass", "Poison"],
+    "type": ["Planta", "Veneno"],
     "base": {
       "HP": 45,
       "Attack": 49,
@@ -17,7 +17,7 @@
       "Speed": 45
     },
     "picture": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png"
-},
+  },
   {
     "id": 2,
     "name": {
@@ -26,7 +26,7 @@
       "chinese": "妙蛙草",
       "french": "Herbizarre"
     },
-    "type": ["Grass", "Poison"],
+    "type": ["Planta", "Veneno"],
     "base": {
       "HP": 60,
       "Attack": 62,
@@ -45,7 +45,7 @@
       "chinese": "妙蛙花",
       "french": "Florizarre"
     },
-    "type": ["Grass", "Poison"],
+    "type": ["Planta", "Veneno"],
     "base": {
       "HP": 80,
       "Attack": 82,
@@ -64,7 +64,7 @@
       "chinese": "小火龙",
       "french": "Salamèche"
     },
-    "type": ["Fire"],
+    "type": ["Fuego"],
     "base": {
       "HP": 39,
       "Attack": 52,
@@ -83,7 +83,7 @@
       "chinese": "火恐龙",
       "french": "Reptincel"
     },
-    "type": ["Fire"],
+    "type": ["Fuego"],
     "base": {
       "HP": 58,
       "Attack": 64,
@@ -102,7 +102,7 @@
       "chinese": "喷火龙",
       "french": "Dracaufeu"
     },
-    "type": ["Fire", "Flying"],
+    "type": ["Fuego", "Volador"],
     "base": {
       "HP": 78,
       "Attack": 84,
@@ -121,7 +121,7 @@
       "chinese": "杰尼龟",
       "french": "Carapuce"
     },
-    "type": ["Water"],
+    "type": ["Agua"],
     "base": {
       "HP": 44,
       "Attack": 48,
@@ -140,7 +140,7 @@
       "chinese": "卡咪龟",
       "french": "Carabaffe"
     },
-    "type": ["Water"],
+    "type": ["Agua"],
     "base": {
       "HP": 59,
       "Attack": 63,
@@ -159,7 +159,7 @@
       "chinese": "水箭龟",
       "french": "Tortank"
     },
-    "type": ["Water"],
+    "type": ["Agua"],
     "base": {
       "HP": 79,
       "Attack": 83,
@@ -178,7 +178,7 @@
       "chinese": "绿毛虫",
       "french": "Chenipan"
     },
-    "type": ["Bug"],
+    "type": ["Bicho"],
     "base": {
       "HP": 45,
       "Attack": 30,
@@ -197,7 +197,7 @@
       "chinese": "铁甲蛹",
       "french": "Chrysacier"
     },
-    "type": ["Bug"],
+    "type": ["Bicho"],
     "base": {
       "HP": 50,
       "Attack": 20,
@@ -216,7 +216,7 @@
       "chinese": "巴大蝶",
       "french": "Papilusion"
     },
-    "type": ["Bug", "Flying"],
+    "type": ["Bicho", "Volador"],
     "base": {
       "HP": 60,
       "Attack": 45,
@@ -235,7 +235,7 @@
       "chinese": "独角虫",
       "french": "Aspicot"
     },
-    "type": ["Bug", "Poison"],
+    "type": ["Bicho", "Veneno"],
     "base": {
       "HP": 40,
       "Attack": 35,
@@ -254,7 +254,7 @@
       "chinese": "铁壳蛹",
       "french": "Coconfort"
     },
-    "type": ["Bug", "Poison"],
+    "type": ["Bicho", "Veneno"],
     "base": {
       "HP": 45,
       "Attack": 25,
@@ -273,7 +273,7 @@
       "chinese": "大针蜂",
       "french": "Dardargnan"
     },
-    "type": ["Bug", "Poison"],
+    "type": ["Bicho", "Veneno"],
     "base": {
       "HP": 65,
       "Attack": 90,
@@ -292,7 +292,7 @@
       "chinese": "波波",
       "french": "Roucool"
     },
-    "type": ["Normal", "Flying"],
+    "type": ["Normal", "Volador"],
     "base": {
       "HP": 40,
       "Attack": 45,
@@ -311,7 +311,7 @@
       "chinese": "比比鸟",
       "french": "Roucoups"
     },
-    "type": ["Normal", "Flying"],
+    "type": ["Normal", "Volador"],
     "base": {
       "HP": 63,
       "Attack": 60,
@@ -330,7 +330,7 @@
       "chinese": "大比鸟",
       "french": "Roucarnage"
     },
-    "type": ["Normal", "Flying"],
+    "type": ["Normal", "Volador"],
     "base": {
       "HP": 83,
       "Attack": 80,
@@ -387,7 +387,7 @@
       "chinese": "烈雀",
       "french": "Piafabec"
     },
-    "type": ["Normal", "Flying"],
+    "type": ["Normal", "Volador"],
     "base": {
       "HP": 40,
       "Attack": 60,
@@ -406,7 +406,7 @@
       "chinese": "大嘴雀",
       "french": "Rapasdepic"
     },
-    "type": ["Normal", "Flying"],
+    "type": ["Normal", "Volador"],
     "base": {
       "HP": 65,
       "Attack": 90,
@@ -425,7 +425,7 @@
       "chinese": "阿柏蛇",
       "french": "Abo"
     },
-    "type": ["Poison"],
+    "type": ["Veneno"],
     "base": {
       "HP": 35,
       "Attack": 60,
@@ -444,7 +444,7 @@
       "chinese": "阿柏怪",
       "french": "Arbok"
     },
-    "type": ["Poison"],
+    "type": ["Veneno"],
     "base": {
       "HP": 60,
       "Attack": 95,
@@ -463,7 +463,7 @@
       "chinese": "皮卡丘",
       "french": "Pikachu"
     },
-    "type": ["Electric"],
+    "type": ["Eléctrico"],
     "base": {
       "HP": 35,
       "Attack": 55,
@@ -482,7 +482,7 @@
       "chinese": "雷丘",
       "french": "Raichu"
     },
-    "type": ["Electric"],
+    "type": ["Eléctrico"],
     "base": {
       "HP": 60,
       "Attack": 90,
@@ -501,7 +501,7 @@
       "chinese": "穿山鼠",
       "french": "Sabelette"
     },
-    "type": ["Ground"],
+    "type": ["Tierra"],
     "base": {
       "HP": 50,
       "Attack": 75,
@@ -520,7 +520,7 @@
       "chinese": "穿山王",
       "french": "Sablaireau"
     },
-    "type": ["Ground"],
+    "type": ["Tierra"],
     "base": {
       "HP": 75,
       "Attack": 100,
@@ -539,7 +539,7 @@
       "chinese": "尼多兰",
       "french": "Nidoran♀"
     },
-    "type": ["Poison"],
+    "type": ["Veneno"],
     "base": {
       "HP": 55,
       "Attack": 47,
@@ -558,7 +558,7 @@
       "chinese": "尼多娜",
       "french": "Nidorina"
     },
-    "type": ["Poison"],
+    "type": ["Veneno"],
     "base": {
       "HP": 70,
       "Attack": 62,
@@ -577,7 +577,7 @@
       "chinese": "尼多后",
       "french": "Nidoqueen"
     },
-    "type": ["Poison", "Ground"],
+    "type": ["Veneno", "Tierra"],
     "base": {
       "HP": 90,
       "Attack": 92,
@@ -596,7 +596,7 @@
       "chinese": "尼多朗",
       "french": "Nidoran♂"
     },
-    "type": ["Poison"],
+    "type": ["Veneno"],
     "base": {
       "HP": 46,
       "Attack": 57,
@@ -615,7 +615,7 @@
       "chinese": "尼多力诺",
       "french": "Nidorino"
     },
-    "type": ["Poison"],
+    "type": ["Veneno"],
     "base": {
       "HP": 61,
       "Attack": 72,
@@ -634,7 +634,7 @@
       "chinese": "尼多王",
       "french": "Nidoking"
     },
-    "type": ["Poison", "Ground"],
+    "type": ["Veneno", "Tierra"],
     "base": {
       "HP": 81,
       "Attack": 102,
@@ -653,7 +653,7 @@
       "chinese": "皮皮",
       "french": "Mélofée"
     },
-    "type": ["Fairy"],
+    "type": ["Hada"],
     "base": {
       "HP": 70,
       "Attack": 45,
@@ -672,7 +672,7 @@
       "chinese": "皮可西",
       "french": "Mélodelfe"
     },
-    "type": ["Fairy"],
+    "type": ["Hada"],
     "base": {
       "HP": 95,
       "Attack": 70,
@@ -691,7 +691,7 @@
       "chinese": "六尾",
       "french": "Goupix"
     },
-    "type": ["Fire"],
+    "type": ["Fuego"],
     "base": {
       "HP": 38,
       "Attack": 41,
@@ -710,7 +710,7 @@
       "chinese": "九尾",
       "french": "Feunard"
     },
-    "type": ["Fire"],
+    "type": ["Fuego"],
     "base": {
       "HP": 73,
       "Attack": 76,
@@ -729,7 +729,7 @@
       "chinese": "胖丁",
       "french": "Rondoudou"
     },
-    "type": ["Normal", "Fairy"],
+    "type": ["Normal", "Hada"],
     "base": {
       "HP": 115,
       "Attack": 45,
@@ -748,7 +748,7 @@
       "chinese": "胖可丁",
       "french": "Grodoudou"
     },
-    "type": ["Normal", "Fairy"],
+    "type": ["Normal", "Hada"],
     "base": {
       "HP": 140,
       "Attack": 70,
@@ -767,7 +767,7 @@
       "chinese": "超音蝠",
       "french": "Nosferapti"
     },
-    "type": ["Poison", "Flying"],
+    "type": ["Veneno", "Volador"],
     "base": {
       "HP": 40,
       "Attack": 45,
@@ -786,7 +786,7 @@
       "chinese": "大嘴蝠",
       "french": "Nosferalto"
     },
-    "type": ["Poison", "Flying"],
+    "type": ["Veneno", "Volador"],
     "base": {
       "HP": 75,
       "Attack": 80,
@@ -805,7 +805,7 @@
       "chinese": "走路草",
       "french": "Mystherbe"
     },
-    "type": ["Grass", "Poison"],
+    "type": ["Planta", "Veneno"],
     "base": {
       "HP": 45,
       "Attack": 50,
@@ -824,7 +824,7 @@
       "chinese": "臭臭花",
       "french": "Ortide"
     },
-    "type": ["Grass", "Poison"],
+    "type": ["Planta", "Veneno"],
     "base": {
       "HP": 60,
       "Attack": 65,
@@ -843,7 +843,7 @@
       "chinese": "霸王花",
       "french": "Rafflesia"
     },
-    "type": ["Grass", "Poison"],
+    "type": ["Planta", "Veneno"],
     "base": {
       "HP": 75,
       "Attack": 80,
@@ -862,7 +862,7 @@
       "chinese": "派拉斯",
       "french": "Paras"
     },
-    "type": ["Bug", "Grass"],
+    "type": ["Bicho", "Planta"],
     "base": {
       "HP": 35,
       "Attack": 70,
@@ -881,7 +881,7 @@
       "chinese": "派拉斯特",
       "french": "Parasect"
     },
-    "type": ["Bug", "Grass"],
+    "type": ["Bicho", "Planta"],
     "base": {
       "HP": 60,
       "Attack": 95,
@@ -900,7 +900,7 @@
       "chinese": "毛球",
       "french": "Mimitoss"
     },
-    "type": ["Bug", "Poison"],
+    "type": ["Bicho", "Veneno"],
     "base": {
       "HP": 60,
       "Attack": 55,
@@ -919,7 +919,7 @@
       "chinese": "摩鲁蛾",
       "french": "Aéromite"
     },
-    "type": ["Bug", "Poison"],
+    "type": ["Bicho", "Veneno"],
     "base": {
       "HP": 70,
       "Attack": 65,
@@ -938,7 +938,7 @@
       "chinese": "地鼠",
       "french": "Taupiqueur"
     },
-    "type": ["Ground"],
+    "type": ["Tierra"],
     "base": {
       "HP": 10,
       "Attack": 55,
@@ -957,7 +957,7 @@
       "chinese": "三地鼠",
       "french": "Triopikeur"
     },
-    "type": ["Ground"],
+    "type": ["Tierra"],
     "base": {
       "HP": 35,
       "Attack": 100,
@@ -1014,7 +1014,7 @@
       "chinese": "可达鸭",
       "french": "Psykokwak"
     },
-    "type": ["Water"],
+    "type": ["Agua"],
     "base": {
       "HP": 50,
       "Attack": 52,
@@ -1033,7 +1033,7 @@
       "chinese": "哥达鸭",
       "french": "Akwakwak"
     },
-    "type": ["Water"],
+    "type": ["Agua"],
     "base": {
       "HP": 80,
       "Attack": 82,
@@ -1052,7 +1052,7 @@
       "chinese": "猴怪",
       "french": "Férosinge"
     },
-    "type": ["Fighting"],
+    "type": ["Lucha"],
     "base": {
       "HP": 40,
       "Attack": 80,
@@ -1071,7 +1071,7 @@
       "chinese": "火暴猴",
       "french": "Colossinge"
     },
-    "type": ["Fighting"],
+    "type": ["Lucha"],
     "base": {
       "HP": 65,
       "Attack": 105,
@@ -1090,7 +1090,7 @@
       "chinese": "卡蒂狗",
       "french": "Caninos"
     },
-    "type": ["Fire"],
+    "type": ["Fuego"],
     "base": {
       "HP": 55,
       "Attack": 70,
@@ -1109,7 +1109,7 @@
       "chinese": "风速狗",
       "french": "Arcanin"
     },
-    "type": ["Fire"],
+    "type": ["Fuego"],
     "base": {
       "HP": 90,
       "Attack": 110,
@@ -1128,7 +1128,7 @@
       "chinese": "蚊香蝌蚪",
       "french": "Ptitard"
     },
-    "type": ["Water"],
+    "type": ["Agua"],
     "base": {
       "HP": 40,
       "Attack": 50,
@@ -1147,7 +1147,7 @@
       "chinese": "蚊香君",
       "french": "Têtarte"
     },
-    "type": ["Water"],
+    "type": ["Agua"],
     "base": {
       "HP": 65,
       "Attack": 65,
@@ -1166,7 +1166,7 @@
       "chinese": "蚊香泳士",
       "french": "Tartard"
     },
-    "type": ["Water", "Fighting"],
+    "type": ["Agua", "Lucha"],
     "base": {
       "HP": 90,
       "Attack": 95,
@@ -1185,7 +1185,7 @@
       "chinese": "凯西",
       "french": "Abra"
     },
-    "type": ["Psychic"],
+    "type": ["Psíquico"],
     "base": {
       "HP": 25,
       "Attack": 20,
@@ -1204,7 +1204,7 @@
       "chinese": "勇基拉",
       "french": "Kadabra"
     },
-    "type": ["Psychic"],
+    "type": ["Psíquico"],
     "base": {
       "HP": 40,
       "Attack": 35,
@@ -1223,7 +1223,7 @@
       "chinese": "胡地",
       "french": "Alakazam"
     },
-    "type": ["Psychic"],
+    "type": ["Psíquico"],
     "base": {
       "HP": 55,
       "Attack": 50,
@@ -1242,7 +1242,7 @@
       "chinese": "腕力",
       "french": "Machoc"
     },
-    "type": ["Fighting"],
+    "type": ["Lucha"],
     "base": {
       "HP": 70,
       "Attack": 80,
@@ -1261,7 +1261,7 @@
       "chinese": "豪力",
       "french": "Machopeur"
     },
-    "type": ["Fighting"],
+    "type": ["Lucha"],
     "base": {
       "HP": 80,
       "Attack": 100,
@@ -1280,7 +1280,7 @@
       "chinese": "怪力",
       "french": "Mackogneur"
     },
-    "type": ["Fighting"],
+    "type": ["Lucha"],
     "base": {
       "HP": 90,
       "Attack": 130,
@@ -1299,7 +1299,7 @@
       "chinese": "喇叭芽",
       "french": "Chétiflor"
     },
-    "type": ["Grass", "Poison"],
+    "type": ["Planta", "Veneno"],
     "base": {
       "HP": 50,
       "Attack": 75,
@@ -1318,7 +1318,7 @@
       "chinese": "口呆花",
       "french": "Boustiflor"
     },
-    "type": ["Grass", "Poison"],
+    "type": ["Planta", "Veneno"],
     "base": {
       "HP": 65,
       "Attack": 90,
@@ -1337,7 +1337,7 @@
       "chinese": "大食花",
       "french": "Empiflor"
     },
-    "type": ["Grass", "Poison"],
+    "type": ["Planta", "Veneno"],
     "base": {
       "HP": 80,
       "Attack": 105,
@@ -1356,7 +1356,7 @@
       "chinese": "玛瑙水母",
       "french": "Tentacool"
     },
-    "type": ["Water", "Poison"],
+    "type": ["Agua", "Veneno"],
     "base": {
       "HP": 40,
       "Attack": 40,
@@ -1375,7 +1375,7 @@
       "chinese": "毒刺水母",
       "french": "Tentacruel"
     },
-    "type": ["Water", "Poison"],
+    "type": ["Agua", "Veneno"],
     "base": {
       "HP": 80,
       "Attack": 70,
@@ -1394,7 +1394,7 @@
       "chinese": "小拳石",
       "french": "Racaillou"
     },
-    "type": ["Rock", "Ground"],
+    "type": ["Roca", "Tierra"],
     "base": {
       "HP": 40,
       "Attack": 80,
@@ -1413,7 +1413,7 @@
       "chinese": "隆隆石",
       "french": "Gravalanch"
     },
-    "type": ["Rock", "Ground"],
+    "type": ["Roca", "Tierra"],
     "base": {
       "HP": 55,
       "Attack": 95,
@@ -1432,7 +1432,7 @@
       "chinese": "隆隆岩",
       "french": "Grolem"
     },
-    "type": ["Rock", "Ground"],
+    "type": ["Roca", "Tierra"],
     "base": {
       "HP": 80,
       "Attack": 120,
@@ -1451,7 +1451,7 @@
       "chinese": "小火马",
       "french": "Ponyta"
     },
-    "type": ["Fire"],
+    "type": ["Fuego"],
     "base": {
       "HP": 50,
       "Attack": 85,
@@ -1470,7 +1470,7 @@
       "chinese": "烈焰马",
       "french": "Galopa"
     },
-    "type": ["Fire"],
+    "type": ["Fuego"],
     "base": {
       "HP": 65,
       "Attack": 100,
@@ -1489,7 +1489,7 @@
       "chinese": "呆呆兽",
       "french": "Ramoloss"
     },
-    "type": ["Water", "Psychic"],
+    "type": ["Agua", "Psíquico"],
     "base": {
       "HP": 90,
       "Attack": 65,
@@ -1508,7 +1508,7 @@
       "chinese": "呆壳兽",
       "french": "Flagadoss"
     },
-    "type": ["Water", "Psychic"],
+    "type": ["Agua", "Psíquico"],
     "base": {
       "HP": 95,
       "Attack": 75,
@@ -1527,7 +1527,7 @@
       "chinese": "小磁怪",
       "french": "Magnéti"
     },
-    "type": ["Electric", "Steel"],
+    "type": ["Eléctrico", "Acero"],
     "base": {
       "HP": 25,
       "Attack": 35,
@@ -1546,7 +1546,7 @@
       "chinese": "三合一磁怪",
       "french": "Magnéton"
     },
-    "type": ["Electric", "Steel"],
+    "type": ["Eléctrico", "Acero"],
     "base": {
       "HP": 50,
       "Attack": 60,
@@ -1565,7 +1565,7 @@
       "chinese": "大葱鸭",
       "french": "Canarticho"
     },
-    "type": ["Normal", "Flying"],
+    "type": ["Normal", "Volador"],
     "base": {
       "HP": 52,
       "Attack": 90,
@@ -1584,7 +1584,7 @@
       "chinese": "嘟嘟",
       "french": "Doduo"
     },
-    "type": ["Normal", "Flying"],
+    "type": ["Normal", "Volador"],
     "base": {
       "HP": 35,
       "Attack": 85,
@@ -1603,7 +1603,7 @@
       "chinese": "嘟嘟利",
       "french": "Dodrio"
     },
-    "type": ["Normal", "Flying"],
+    "type": ["Normal", "Volador"],
     "base": {
       "HP": 60,
       "Attack": 110,
@@ -1622,7 +1622,7 @@
       "chinese": "小海狮",
       "french": "Otaria"
     },
-    "type": ["Water"],
+    "type": ["Agua"],
     "base": {
       "HP": 65,
       "Attack": 45,
@@ -1641,7 +1641,7 @@
       "chinese": "白海狮",
       "french": "Lamantine"
     },
-    "type": ["Water", "Ice"],
+    "type": ["Agua", "Hielo"],
     "base": {
       "HP": 90,
       "Attack": 70,
@@ -1660,7 +1660,7 @@
       "chinese": "臭泥",
       "french": "Tadmorv"
     },
-    "type": ["Poison"],
+    "type": ["Veneno"],
     "base": {
       "HP": 80,
       "Attack": 80,
@@ -1679,7 +1679,7 @@
       "chinese": "臭臭泥",
       "french": "Grotadmorv"
     },
-    "type": ["Poison"],
+    "type": ["Veneno"],
     "base": {
       "HP": 105,
       "Attack": 105,
@@ -1698,7 +1698,7 @@
       "chinese": "大舌贝",
       "french": "Kokiyas"
     },
-    "type": ["Water"],
+    "type": ["Agua"],
     "base": {
       "HP": 30,
       "Attack": 65,
@@ -1717,7 +1717,7 @@
       "chinese": "刺甲贝",
       "french": "Crustabri"
     },
-    "type": ["Water", "Ice"],
+    "type": ["Agua", "Hielo"],
     "base": {
       "HP": 50,
       "Attack": 95,
@@ -1736,7 +1736,7 @@
       "chinese": "鬼斯",
       "french": "Fantominus"
     },
-    "type": ["Ghost", "Poison"],
+    "type": ["Fantasma", "Veneno"],
     "base": {
       "HP": 30,
       "Attack": 35,
@@ -1755,7 +1755,7 @@
       "chinese": "鬼斯通",
       "french": "Spectrum"
     },
-    "type": ["Ghost", "Poison"],
+    "type": ["Fantasma", "Veneno"],
     "base": {
       "HP": 45,
       "Attack": 50,
@@ -1774,7 +1774,7 @@
       "chinese": "耿鬼",
       "french": "Ectoplasma"
     },
-    "type": ["Ghost", "Poison"],
+    "type": ["Fantasma", "Veneno"],
     "base": {
       "HP": 60,
       "Attack": 65,
@@ -1793,7 +1793,7 @@
       "chinese": "大岩蛇",
       "french": "Onix"
     },
-    "type": ["Rock", "Ground"],
+    "type": ["Roca", "Tierra"],
     "base": {
       "HP": 35,
       "Attack": 45,
@@ -1812,7 +1812,7 @@
       "chinese": "催眠貘",
       "french": "Soporifik"
     },
-    "type": ["Psychic"],
+    "type": ["Psíquico"],
     "base": {
       "HP": 60,
       "Attack": 48,
@@ -1831,7 +1831,7 @@
       "chinese": "引梦貘人",
       "french": "Hypnomade"
     },
-    "type": ["Psychic"],
+    "type": ["Psíquico"],
     "base": {
       "HP": 85,
       "Attack": 73,
@@ -1850,7 +1850,7 @@
       "chinese": "大钳蟹",
       "french": "Krabby"
     },
-    "type": ["Water"],
+    "type": ["Agua"],
     "base": {
       "HP": 30,
       "Attack": 105,
@@ -1869,7 +1869,7 @@
       "chinese": "巨钳蟹",
       "french": "Krabboss"
     },
-    "type": ["Water"],
+    "type": ["Agua"],
     "base": {
       "HP": 55,
       "Attack": 130,
@@ -1888,7 +1888,7 @@
       "chinese": "霹雳电球",
       "french": "Voltorbe"
     },
-    "type": ["Electric"],
+    "type": ["Eléctrico"],
     "base": {
       "HP": 40,
       "Attack": 30,
@@ -1907,7 +1907,7 @@
       "chinese": "顽皮雷弹",
       "french": "Électrode"
     },
-    "type": ["Electric"],
+    "type": ["Eléctrico"],
     "base": {
       "HP": 60,
       "Attack": 50,
@@ -1926,7 +1926,7 @@
       "chinese": "蛋蛋",
       "french": "Noeunoeuf"
     },
-    "type": ["Grass", "Psychic"],
+    "type": ["Planta", "Psíquico"],
     "base": {
       "HP": 60,
       "Attack": 40,
@@ -1945,7 +1945,7 @@
       "chinese": "椰蛋树",
       "french": "Noadkoko"
     },
-    "type": ["Grass", "Psychic"],
+    "type": ["Planta", "Psíquico"],
     "base": {
       "HP": 95,
       "Attack": 95,
@@ -1964,7 +1964,7 @@
       "chinese": "卡拉卡拉",
       "french": "Osselait"
     },
-    "type": ["Ground"],
+    "type": ["Tierra"],
     "base": {
       "HP": 50,
       "Attack": 50,
@@ -1983,7 +1983,7 @@
       "chinese": "嘎啦嘎啦",
       "french": "Ossatueur"
     },
-    "type": ["Ground"],
+    "type": ["Tierra"],
     "base": {
       "HP": 60,
       "Attack": 80,
@@ -2002,7 +2002,7 @@
       "chinese": "飞腿郎",
       "french": "Kicklee"
     },
-    "type": ["Fighting"],
+    "type": ["Lucha"],
     "base": {
       "HP": 50,
       "Attack": 120,
@@ -2021,7 +2021,7 @@
       "chinese": "快拳郎",
       "french": "Tygnon"
     },
-    "type": ["Fighting"],
+    "type": ["Lucha"],
     "base": {
       "HP": 50,
       "Attack": 105,
@@ -2059,7 +2059,7 @@
       "chinese": "瓦斯弹",
       "french": "Smogo"
     },
-    "type": ["Poison"],
+    "type": ["Veneno"],
     "base": {
       "HP": 40,
       "Attack": 65,
@@ -2078,7 +2078,7 @@
       "chinese": "双弹瓦斯",
       "french": "Smogogo"
     },
-    "type": ["Poison"],
+    "type": ["Veneno"],
     "base": {
       "HP": 65,
       "Attack": 90,
@@ -2097,7 +2097,7 @@
       "chinese": "独角犀牛",
       "french": "Rhinocorne"
     },
-    "type": ["Ground", "Rock"],
+    "type": ["Tierra", "Roca"],
     "base": {
       "HP": 80,
       "Attack": 85,
@@ -2116,7 +2116,7 @@
       "chinese": "钻角犀兽",
       "french": "Rhinoféros"
     },
-    "type": ["Ground", "Rock"],
+    "type": ["Tierra", "Roca"],
     "base": {
       "HP": 105,
       "Attack": 130,
@@ -2154,7 +2154,7 @@
       "chinese": "蔓藤怪",
       "french": "Saquedeneu"
     },
-    "type": ["Grass"],
+    "type": ["Planta"],
     "base": {
       "HP": 65,
       "Attack": 55,
@@ -2192,7 +2192,7 @@
       "chinese": "墨海马",
       "french": "Hypotrempe"
     },
-    "type": ["Water"],
+    "type": ["Agua"],
     "base": {
       "HP": 30,
       "Attack": 40,
@@ -2211,7 +2211,7 @@
       "chinese": "海刺龙",
       "french": "Hypocéan"
     },
-    "type": ["Water"],
+    "type": ["Agua"],
     "base": {
       "HP": 55,
       "Attack": 65,
@@ -2230,7 +2230,7 @@
       "chinese": "角金鱼",
       "french": "Poissirène"
     },
-    "type": ["Water"],
+    "type": ["Agua"],
     "base": {
       "HP": 45,
       "Attack": 67,
@@ -2249,7 +2249,7 @@
       "chinese": "金鱼王",
       "french": "Poissoroy"
     },
-    "type": ["Water"],
+    "type": ["Agua"],
     "base": {
       "HP": 80,
       "Attack": 92,
@@ -2268,7 +2268,7 @@
       "chinese": "海星星",
       "french": "Stari"
     },
-    "type": ["Water"],
+    "type": ["Agua"],
     "base": {
       "HP": 30,
       "Attack": 45,
@@ -2287,7 +2287,7 @@
       "chinese": "宝石海星",
       "french": "Staross"
     },
-    "type": ["Water", "Psychic"],
+    "type": ["Agua", "Psíquico"],
     "base": {
       "HP": 60,
       "Attack": 75,
@@ -2306,7 +2306,7 @@
       "chinese": "魔墙人偶",
       "french": "M. Mime"
     },
-    "type": ["Psychic", "Fairy"],
+    "type": ["Psíquico", "Hada"],
     "base": {
       "HP": 40,
       "Attack": 45,
@@ -2325,7 +2325,7 @@
       "chinese": "飞天螳螂",
       "french": "Insécateur"
     },
-    "type": ["Bug", "Flying"],
+    "type": ["Bicho", "Volador"],
     "base": {
       "HP": 70,
       "Attack": 110,
@@ -2344,7 +2344,7 @@
       "chinese": "迷唇姐",
       "french": "Lippoutou"
     },
-    "type": ["Ice", "Psychic"],
+    "type": ["Hielo", "Psíquico"],
     "base": {
       "HP": 65,
       "Attack": 50,
@@ -2363,7 +2363,7 @@
       "chinese": "电击兽",
       "french": "Élektek"
     },
-    "type": ["Electric"],
+    "type": ["Eléctrico"],
     "base": {
       "HP": 65,
       "Attack": 83,
@@ -2382,7 +2382,7 @@
       "chinese": "鸭嘴火兽",
       "french": "Magmar"
     },
-    "type": ["Fire"],
+    "type": ["Fuego"],
     "base": {
       "HP": 65,
       "Attack": 95,
@@ -2401,7 +2401,7 @@
       "chinese": "凯罗斯",
       "french": "Scarabrute"
     },
-    "type": ["Bug"],
+    "type": ["Bicho"],
     "base": {
       "HP": 65,
       "Attack": 125,
@@ -2439,7 +2439,7 @@
       "chinese": "鲤鱼王",
       "french": "Magicarpe"
     },
-    "type": ["Water"],
+    "type": ["Agua"],
     "base": {
       "HP": 20,
       "Attack": 10,
@@ -2458,7 +2458,7 @@
       "chinese": "暴鲤龙",
       "french": "Léviator"
     },
-    "type": ["Water", "Flying"],
+    "type": ["Agua", "Volador"],
     "base": {
       "HP": 95,
       "Attack": 125,
@@ -2477,7 +2477,7 @@
       "chinese": "拉普拉斯",
       "french": "Lokhlass"
     },
-    "type": ["Water", "Ice"],
+    "type": ["Agua", "Hielo"],
     "base": {
       "HP": 130,
       "Attack": 85,
@@ -2534,7 +2534,7 @@
       "chinese": "水伊布",
       "french": "Aquali"
     },
-    "type": ["Water"],
+    "type": ["Agua"],
     "base": {
       "HP": 130,
       "Attack": 65,
@@ -2553,7 +2553,7 @@
       "chinese": "雷伊布",
       "french": "Voltali"
     },
-    "type": ["Electric"],
+    "type": ["Eléctrico"],
     "base": {
       "HP": 65,
       "Attack": 65,
@@ -2572,7 +2572,7 @@
       "chinese": "火伊布",
       "french": "Pyroli"
     },
-    "type": ["Fire"],
+    "type": ["Fuego"],
     "base": {
       "HP": 65,
       "Attack": 130,
@@ -2610,7 +2610,7 @@
       "chinese": "菊石兽",
       "french": "Amonita"
     },
-    "type": ["Rock", "Water"],
+    "type": ["Roca", "Agua"],
     "base": {
       "HP": 35,
       "Attack": 40,
@@ -2629,7 +2629,7 @@
       "chinese": "多刺菊石兽",
       "french": "Amonistar"
     },
-    "type": ["Rock", "Water"],
+    "type": ["Roca", "Agua"],
     "base": {
       "HP": 70,
       "Attack": 60,
@@ -2648,7 +2648,7 @@
       "chinese": "化石盔",
       "french": "Kabuto"
     },
-    "type": ["Rock", "Water"],
+    "type": ["Roca", "Agua"],
     "base": {
       "HP": 30,
       "Attack": 80,
@@ -2667,7 +2667,7 @@
       "chinese": "镰刀盔",
       "french": "Kabutops"
     },
-    "type": ["Rock", "Water"],
+    "type": ["Roca", "Agua"],
     "base": {
       "HP": 60,
       "Attack": 115,
@@ -2686,7 +2686,7 @@
       "chinese": "化石翼龙",
       "french": "Ptéra"
     },
-    "type": ["Rock", "Flying"],
+    "type": ["Roca", "Volador"],
     "base": {
       "HP": 80,
       "Attack": 105,
@@ -2724,7 +2724,7 @@
       "chinese": "急冻鸟",
       "french": "Artikodin"
     },
-    "type": ["Ice", "Flying"],
+    "type": ["Hielo", "Volador"],
     "base": {
       "HP": 90,
       "Attack": 85,
@@ -2743,7 +2743,7 @@
       "chinese": "闪电鸟",
       "french": "Électhor"
     },
-    "type": ["Electric", "Flying"],
+    "type": ["Eléctrico", "Volador"],
     "base": {
       "HP": 90,
       "Attack": 90,
@@ -2762,7 +2762,7 @@
       "chinese": "火焰鸟",
       "french": "Sulfura"
     },
-    "type": ["Fire", "Flying"],
+    "type": ["Fuego", "Volador"],
     "base": {
       "HP": 90,
       "Attack": 100,
@@ -2781,7 +2781,7 @@
       "chinese": "迷你龙",
       "french": "Minidraco"
     },
-    "type": ["Dragon"],
+    "type": ["Dragón"],
     "base": {
       "HP": 41,
       "Attack": 64,
@@ -2800,7 +2800,7 @@
       "chinese": "哈克龙",
       "french": "Draco"
     },
-    "type": ["Dragon"],
+    "type": ["Dragón"],
     "base": {
       "HP": 61,
       "Attack": 84,
@@ -2819,7 +2819,7 @@
       "chinese": "快龙",
       "french": "Dracolosse"
     },
-    "type": ["Dragon", "Flying"],
+    "type": ["Dragón", "Volador"],
     "base": {
       "HP": 91,
       "Attack": 134,
@@ -2838,7 +2838,7 @@
       "chinese": "超梦",
       "french": "Mewtwo"
     },
-    "type": ["Psychic"],
+    "type": ["Psíquico"],
     "base": {
       "HP": 106,
       "Attack": 110,
@@ -2857,7 +2857,7 @@
       "chinese": "梦幻",
       "french": "Mew"
     },
-    "type": ["Psychic"],
+    "type": ["Psíquico"],
     "base": {
       "HP": 100,
       "Attack": 100,

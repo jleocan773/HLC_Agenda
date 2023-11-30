@@ -40,6 +40,24 @@
   color: whitesmoke; 
 }
 
+// Estilos para la tarjeta de Pokémon específicamente
+.imagen__grande {
+  width: 100%; /* O ajusta el ancho de la imagen según lo necesario */
+  height: auto;
+  object-fit: cover; /* Para mantener la relación de aspecto */
+}
+
+.contenido__flex {
+  display: flex;
+  align-items: center;
+}
+
+.info__derecha {
+  margin-left: 20px; /* Ajusta el margen para separar la imagen y la información */
+}
+
+
+
 @media (orientation: landscape) {
   .cartas__color{
     background-color: red; 
