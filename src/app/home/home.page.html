@@ -6,7 +6,7 @@
 
 <ion-content [fullscreen]="true" class="contenido__fondo">
   <ion-input [(ngModel)]="filtro" placeholder="Introduce un filtro"></ion-input>
-  
+
   <ion-grid>
     <ion-row>
       <ng-container *ngFor="let pokemon of pokemons">
@@ -16,10 +16,13 @@
               <p>{{ pokemon.name.english }}</p>
               <p>Type: {{ pokemon.type.join(', ') }}</p>
               <p>HP: {{ pokemon.base.HP }}</p>
-            </ion-card-content>            
+              <ion-avatar>
+                <img [src]="pokemon.picture" />
+              </ion-avatar>
+            </ion-card-content>
           </ion-card>
         </ion-col>
       </ng-container>
-          </ion-row>
+    </ion-row>
   </ion-grid>
 </ion-content>
