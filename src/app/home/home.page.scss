@@ -1,43 +1,27 @@
 // Estilos para pantallas pequeñas
-@media (max-width: 767px) {
-  .cartas__color{
-    background-color: violet; 
-  }
 
-  ion-content{
-    --ion-background-color:rgb(3, 75, 30);
-  }
-  
+ion-card {
+  color: #f0f0f0;
+  border: pink;
+}
+
+.contenido__flex{
+  color: white; /* Color de la letra blanco */
+  text-shadow: -1px -1px 0 #000,  
+               1px -1px 0 #000,
+               -1px 1px 0 #000,
+               1px 1px 0 #000; /* Contorno azul oscuro */
+}
+
+.imagen__grande {
+  max-width: 450px; /* Tamaño máximo para la imagen */
+  height: auto; /* Altura automática para mantener la proporción */
 
 }
 
-// Estilos para pantallas medianas
-@media (min-width: 768px) and (max-width: 991px) {
-  .cartas__color{
-    background-color: orange; 
-  }
-
-  ion-content{
-    --ion-background-color:black;
-  }
-  
-}
-
-// Estilos para pantallas grandes
-@media (min-width: 992px) {
-  .cartas__color{
-    background-color: blue; 
-  }
-
-  ion-content{
-    --ion-background-color:#78CC66;
-  }
-  
-
-}
-
-.cartas__color{
-  color: whitesmoke; 
+/* Estilo para la barra de búsqueda */
+ion-content {
+  --ion-background-color: #db3c36;
 }
 
 // Estilos para la tarjeta de Pokémon específicamente
@@ -56,19 +40,175 @@
   margin-left: 20px; /* Ajusta el margen para separar la imagen y la información */
 }
 
-
-
-@media (orientation: landscape) {
-  .cartas__color{
-    background-color: red; 
-  }
+.tipo-acero {
+  background-color: #60a1b8; /* Color para el tipo Acero */
 }
 
-@media (orientation: portrait) {
-  .cartas__color{
-    background-color: pink; 
-  }
+.tipo-agua {
+  background-color: #2980ef; /* Color para el tipo Agua */
 }
 
+.tipo-bicho {
+  background-color: #91a119; /* Color para el tipo Bicho */
+}
 
+.tipo-dragón {
+  background-color: #5364e3; /* Color para el tipo Dragón */
+}
+
+.tipo-eléctrico {
+  background-color: #fbc202; /* Color para el tipo Eléctrico */
+}
+
+.tipo-fantasma {
+  background-color: #704170; /* Color para el tipo Fantasma */
+}
+
+.tipo-fuego {
+  background-color: #e62829; /* Color para el tipo Fuego */
+}
+
+.tipo-hada {
+  background-color: #ef71ef; /* Color para el tipo Hada */
+}
+
+.tipo-hielo {
+  background-color: #3dd9ff; /* Color para el tipo Hielo */
+}
+
+.tipo-lucha {
+  background-color: #ff8100; /* Color para el tipo Lucha */
+}
+
+.tipo-normal {
+  background-color: #9fa19f; /* Color para el tipo Normal */
+}
+
+.tipo-planta {
+  background-color: #4ba736; /* Color para el tipo Planta */
+}
+
+.tipo-psíquico {
+  background-color: #ef4179; /* Color para el tipo Psíquico */
+}
+
+.tipo-roca {
+  background-color: #afa981; /* Color para el tipo Roca */
+}
+
+.tipo-siniestro {
+  background-color: #50413f; /* Color para el tipo Siniestro */
+}
+
+.tipo-tierra {
+  background-color: #915121; /* Color para el tipo Tierra */
+}
+
+.tipo-veneno {
+  background-color: #8f41cb; /* Color para el tipo Veneno */
+}
+
+.tipo-volador {
+  background-color: #81b9ef; /* Color para el tipo Volador */
+}
+
+.tipo-planta-veneno {
+  background: linear-gradient(to bottom, #4BA736, #8F41CB); /* Planta - Veneno */
+}
+
+.tipo-fuego-volador {
+  background: linear-gradient(to bottom, #E62829, #81B9EF); /* Fuego - Volador */
+}
+
+.tipo-bicho-volador {
+  background: linear-gradient(to bottom, #91A119, #81B9EF); /* Bicho - Volador */
+}
+
+.tipo-bicho-veneno {
+  background: linear-gradient(to bottom, #91A119, #8F41CB); /* Bicho - Veneno */
+}
+
+.tipo-normal-volador {
+  background: linear-gradient(to bottom, #9FA19F, #81B9EF); /* Normal - Volador */
+}
+
+.tipo-veneno-tierra {
+  background: linear-gradient(to bottom, #8F41CB, #915121); /* Veneno - Tierra */
+}
+
+.tipo-normal-hada {
+  background: linear-gradient(to bottom, #9FA19F, #EF71EF); /* Normal - Hada */
+}
+
+.tipo-veneno-volador {
+  background: linear-gradient(to bottom, #8F41CB, #81B9EF); /* Veneno - Volador */
+}
+
+.tipo-bicho-planta {
+  background: linear-gradient(to bottom, #91A119, #4BA736); /* Bicho - Planta */
+}
+
+.tipo-agua-lucha {
+  background: linear-gradient(to bottom, #2980EF, #FF8100); /* Agua - Lucha */
+}
+
+.tipo-agua-veneno {
+  background: linear-gradient(to bottom, #2980EF, #8F41CB); /* Agua - Veneno */
+}
+
+.tipo-roca-tierra {
+  background: linear-gradient(to bottom, #AFA981, #915121); /* Roca - Tierra */
+}
+
+.tipo-agua-psíquico {
+  background: linear-gradient(to bottom, #2980EF, #EF4179); /* Agua - Psíquico */
+}
+
+.tipo-eléctrico-acero {
+  background: linear-gradient(to bottom, #FBC202, #60A1B8); /* Eléctrico - Acero */
+}
+
+.tipo-agua-hielo {
+  background: linear-gradient(to bottom, #2980EF, #3DD9FF); /* Agua - Hielo */
+}
+
+.tipo-fantasma-veneno {
+  background: linear-gradient(to bottom, #704170, #8F41CB); /* Fantasma - Veneno */
+}
+
+.tipo-planta-psíquico {
+  background: linear-gradient(to bottom, #4BA736, #EF4179); /* Planta - Psíquico */
+}
+
+.tipo-psíquico-hada {
+  background: linear-gradient(to bottom, #EF4179, #EF71EF); /* Psíquico - Hada */
+}
+
+.tipo-hielo-psíquico {
+  background: linear-gradient(to bottom, #3DD9FF, #EF4179); /* Hielo - Psíquico */
+}
+
+.tipo-agua-volador {
+  background: linear-gradient(to bottom, #2980EF, #81B9EF); /* Agua - Volador */
+}
+
+.tipo-roca-agua {
+  background: linear-gradient(to bottom, #AFA981, #2980EF); /* Roca - Agua */
+}
+
+.tipo-roca-volador {
+  background: linear-gradient(to bottom, #AFA981, #81B9EF); /* Roca - Volador */
+}
+
+.tipo-hielo-volador {
+  background: linear-gradient(to bottom, #3DD9FF, #81B9EF); /* Hielo - Volador */
+}
+
+.tipo-eléctrico-volador {
+  background: linear-gradient(to bottom, #FBC202, #81B9EF); /* Eléctrico - Volador */
+}
+
+.tipo-dragón-volador {
+  background: linear-gradient(to bottom, #5364E3, #81B9EF); /* Dragón - Volador */
+}
 

@@ -13,24 +13,24 @@ export class HomePage {
   tipoSeleccionado1: string = '';
   tipoSeleccionado2: string = '';
   tiposDisponibles: string[] = [
-    'Acero',
-    'Agua',
-    'Bicho',
-    'Dragón',
-    'Eléctrico',
-    'Fantasma',
-    'Fuego',
-    'Hada',
-    'Hielo',
-    'Lucha',
-    'Normal',
-    'Planta',
-    'Psíquico',
-    'Roca',
-    'Siniestro',
-    'Tierra',
-    'Veneno',
-    'Volador',
+    'Acero', //#60A1B8
+    'Agua', //#2980EF
+    'Bicho', //#91A119
+    'Dragón', //#5364E3
+    'Eléctrico', //#FBC202
+    'Fantasma', //#704170
+    'Fuego', //#E62829
+    'Hada', //#EF71EF
+    'Hielo', //#3DD9FF
+    'Lucha', //#FF8100
+    'Normal', //#9FA19F
+    'Planta', //#4BA736
+    'Psíquico', //#EF4179
+    'Roca', //#AFA981
+    'Siniestro', //#50413F
+    'Tierra', //#915121
+    'Veneno', //#8F41CB
+    'Volador', //#81B9EF
   ];
   listaCompletaPokemons: any;
 
@@ -80,7 +80,60 @@ export class HomePage {
   }
     
   
-    
+  // getColorClass(type: string): string {
+  //   switch (type) {
+  //     case 'Acero':
+  //       return 'tipo-acero';
+  //     case 'Agua':
+  //       return 'tipo-agua';
+  //     case 'Bicho':
+  //       return 'tipo-bicho';
+  //     case 'Dragón':
+  //       return 'tipo-dragón';
+  //     case 'Eléctrico':
+  //       return 'tipo-eléctrico';
+  //     case 'Fantasma':
+  //       return 'tipo-fantasma';
+  //     case 'Fuego':
+  //       return 'tipo-fuego';
+  //     case 'Hada':
+  //       return 'tipo-hada';
+  //     case 'Hielo':
+  //       return 'tipo-hielo';
+  //     case 'Lucha':
+  //       return 'tipo-lucha';
+  //     case 'Normal':
+  //       return 'tipo-normal';
+  //     case 'Planta':
+  //       return 'tipo-planta';
+  //     case 'Psíquico':
+  //       return 'tipo-psíquico';
+  //     case 'Roca':
+  //       return 'tipo-roca';
+  //     case 'Siniestro':
+  //       return 'tipo-siniestro';
+  //     case 'Tierra':
+  //       return 'tipo-tierra';
+  //     case 'Veneno':
+  //       return 'tipo-veneno';
+  //     case 'Volador':
+  //       return 'tipo-volador';
+  //     default:
+  //       return '';
+  //   }
+  // }
+
+  getDualTypeClass(types: string[]): string {
+    if (types.length === 2) {
+      const dualTypeClass = `tipo-${types[0].toLowerCase()}-${types[1].toLowerCase()}`;
+      return dualTypeClass;
+    } else if (types.length === 1) {
+      const singleTypeClass = `tipo-${types[0].toLowerCase()}`;
+      return singleTypeClass;
+    }
+    return '';
+  }
   
-  
+
+
 }

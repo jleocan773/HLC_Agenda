@@ -25,13 +25,12 @@
     </ion-select-option>
   </ion-select>
 
-
   <!-- Grid para mostrar las tarjetas de Pokémon -->
   <ion-grid>
     <ion-row>
       <ng-container *ngFor="let pokemon of pokemons">
         <ion-col size-xl="4" size-l="4" size-md="6" size-sm="12" size-xs="12">
-          <ion-card class="cartas__color">
+          <ion-card [ngClass]="getDualTypeClass(pokemon.type)">            
             <ion-card-content class="contenido__flex">
               <!-- Imagen del Pokémon (más grande) -->
               <img class="imagen__grande" [src]="pokemon.picture" />
@@ -41,12 +40,21 @@
                 <!-- Nombre del Pokémon -->
                 <p>{{ pokemon.name.english }}</p>
 
+                <br>
+
                 <!-- Tipos del Pokémon -->
-                <p>Type: {{ pokemon.type.join(', ') }}</p>
+                <p>Type:</p>
+                <p>{{ pokemon.type.join(', ') }}</p>
+
+                <br>
 
                 <!-- Otra información del Pokémon (HP, Ataque, Defensa, etc.) -->
                 <p>HP: {{ pokemon.base.HP }}</p>
-                <!-- Agrega más información aquí si es necesario -->
+                <p>Ataque: {{ pokemon.base.Attack }}</p>
+                <p>Defensa: {{ pokemon.base.Defense }}</p>
+                <p>Ataque SP: {{ pokemon.base['Sp. Attack'] }}</p>
+                <p>Defensa SP: {{ pokemon.base['Sp. Defense'] }}</p>
+                <p>Velocidad: {{ pokemon.base.Speed }}</p>
               </div>
             </ion-card-content>
           </ion-card>
