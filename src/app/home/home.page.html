@@ -6,11 +6,15 @@
 
 <ion-content [fullscreen]="true" class="contenido__fondo">
   <!-- Barra de búsqueda -->
-  <ion-input [(ngModel)]="filtro" (ionChange)="filtrarPorNombre()" placeholder="Introduce un filtro"></ion-input>
-
+  <br>
+  <ion-label class="campoFiltrado">Filtrado por Nombre</ion-label>
+  <ion-input class="ion-element-padding" [(ngModel)]="filtro" (ionChange)="filtrarPorNombre()" placeholder="Introduce un filtro"></ion-input>
+  <br>
+  
   <!-- Búsqueda por Tipos -->
+  <ion-label class="campoFiltrado">Filtrado por Tipos</ion-label>
   <!-- Primer campo select para el primer tipo -->
-  <ion-select [(ngModel)]="tipoSeleccionado1" (ionChange)="filtrarPorTipo()">
+  <ion-select class="ion-element-padding"[(ngModel)]="tipoSeleccionado1" (ionChange)="filtrarPorTipo()">
     <ion-select-option value="">Cualquiera</ion-select-option>
     <ion-select-option *ngFor="let tipo of tiposDisponibles" [value]="tipo">
       {{ tipo }}
@@ -18,7 +22,7 @@
   </ion-select>
 
   <!-- Segundo campo select para el segundo tipo -->
-  <ion-select [(ngModel)]="tipoSeleccionado2" (ionChange)="filtrarPorTipo()">
+  <ion-select class="ion-element-padding" [(ngModel)]="tipoSeleccionado2" (ionChange)="filtrarPorTipo()">
     <ion-select-option value="">Cualquiera</ion-select-option>
     <ion-select-option *ngFor="let tipo of tiposDisponibles" [value]="tipo">
       {{ tipo }}
