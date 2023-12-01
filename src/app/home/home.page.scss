@@ -35,8 +35,8 @@ ion-content {
 }
 
 .imagen__grande {
-  width: 100%; /* O ajusta el ancho de la imagen según lo necesario */
-  height: auto;
+  //width: 100%; /* O ajusta el ancho de la imagen según lo necesario */
+  height: 300px;
   object-fit: cover; /* Para mantener la relación de aspecto */
 }
 
